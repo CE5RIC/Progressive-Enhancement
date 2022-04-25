@@ -1,0 +1,42 @@
+body {
+    max-width: 90%;
+    margin: auto;
+    background-image: url(Images/pexels-dom-j-310452.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+}
+
+p {
+    font-family: serif;
+    letter-spacing: 0.1em;
+    color: rgba(0, 0, 0, 0.801);
+}
+
+
+a {
+    color: rgba(0, 0, 0, 0.801);
+    text-decoration: none;
+
+}
+
+
+a:link {
+    background-color: yellow;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    background-color: cyan;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: lightgreen;
+    text-decoration: none;
+  }
+  
+  a:active {
+    background-color: hotpink;
+    text-decoration: none;
+  } 
