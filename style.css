@@ -1,10 +1,19 @@
 body {
+
+  font-family: 'Open Sans', sans-serif;
     max-width: 90%;
     margin: auto;
+   
     background-image: url(Images/pexels-dom-j-310452.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+  opacity: 0.8;
+}
+
+
+h1 {
+  background-color: rgba(255, 238, 0, 0.801);
 }
 
 p {
@@ -22,12 +31,12 @@ a {
 
 
 a:link {
-    background-color: yellow;
+    background-color: rgba(255, 238, 0, 0.801);
     text-decoration: none;
   }
   
   a:visited {
-    background-color: cyan;
+    background-color: rgb(229, 255, 0);
     text-decoration: none;
   }
   
@@ -40,3 +49,36 @@ a:link {
     background-color: hotpink;
     text-decoration: none;
   } 
+
+
+  table {
+    border-style: solid;
+  }
+
+  td {
+    border-style: solid;
+  }
+
+  .farmer {
+    color: red;
+  }
+
+
+  .villagers {
+    color: rgb(43, 76, 226);
+  }
+
+
+.good {
+text-transform: capitalize;
+color: green;
+}
+
+.bad {
+text-transform: capitalize;
+color: red;
+}
+
+.firstparagraph {
+  font-weight: bold;
+}
